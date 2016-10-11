@@ -372,3 +372,28 @@ Small Device Styles
   }
 
 }
+
+
+
+ul.talk {
+  list-style: none; 
+}
+
+ul.talk li {
+  border-bottom: 2px solid #AAA;
+  margin-bottom: 10px;
+}
+
+.talk.topic {
+  font-size: 130%;
+  font-weight: bold;
+  color: #7a121c;
+}
+
+.talk.speaker span.speaker {
+  font-weight: bold;
+}
+
+.talk.file:before {
+  content: url(http://icons.iconarchive.com/icons/hopstarter/sleek-xp-basic/32/Document-icon.png);
+}
