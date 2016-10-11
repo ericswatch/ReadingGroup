@@ -3,6 +3,7 @@ fall16:
     speaker: "Yuqing Kong"
     date: "11am Wednesday, Sep 28, 2016"
     file: "https://ericswatch.github.io/ReadingGroup/lecturenotes/Tyrannosaurus.pdf"
+    location: "EECS 2311"
   - topic: "Ring Cryptography"
     speaker: "Eric"
     date: "11am Wednesday, Sep 14, 2016"
