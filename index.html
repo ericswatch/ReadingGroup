@@ -45,13 +45,13 @@ layout: none
 {% for talk in site.data.talks.fall16 %}
 <li>
 <div class="talk topic">{{ talk.topic }}</div>
-<div class="talk time">{{ talk.time }} </div>
+<div class="talk date">{{ talk.date }} </div>
 {% if talk.location != null %}
 <div class="talk location">{{ talk.location }}</div>
 {% endif %}
 <div class="talk speaker">Speaker: <span class="speaker">{{ talk.speaker }}</span></div>
 {% if talk.file != null %}
-<div class="talk file">{{ talk.file }}</div>
+<div class="talk file"><a class="talk file" href="{{ talk.file }}">paper</a></div>
 {% endif %}
 {% if talk.abstract != null %}
 <div class="talk abstract">{{ talk.abstract }}</div>

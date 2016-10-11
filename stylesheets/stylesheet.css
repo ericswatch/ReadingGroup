@@ -394,6 +394,6 @@ ul.talk li {
   font-weight: bold;
 }
 
-.talk.file:before {
-  content: url(http://icons.iconarchive.com/icons/hopstarter/sleek-xp-basic/32/Document-icon.png);
+a.talk.file:before {
+  content: url(http://icons.iconarchive.com/icons/hopstarter/sleek-xp-basic/16/Document-icon.png);
 }
