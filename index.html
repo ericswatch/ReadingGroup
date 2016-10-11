@@ -37,6 +37,12 @@
 <h2>Schedule:</h2>
 <h3>Past Talks:</h3>
 
+<ul>
+{% for talk in site.data.talks.fall16 %}
+<li>Topic: {{ talk.topic }}</li>
+{% endfor %}
+</ul>
+
 <li>
 Topic:<a href="./lecturenotes/Tyrannosaurus.pdf" download="newfilename">ring cryptography</a>.
 Wednesday, Sep 14, 2016: Speaker:<b>Eric</b>
