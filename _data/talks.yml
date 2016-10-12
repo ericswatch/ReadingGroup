@@ -3,11 +3,11 @@ fall16:
     speaker: "Fang-Yi, Dawei"
     date: "11am Wednesday, Oct 12, 2016"
     abstract: |
-    <p>
-    Markov chain Monte Carlo (MCMC) methods are a class of algorithms for sampling from a probability distribution based on constructing a Markov chain that has the desired distribution as its stationary distribution.  A main challenge of MCMC is determine the rate of convergence of a Markov chain to the stationary distribution as a function of the size and geometry of the state space.
-    </p><p>
-    In this talk, we are going to introduce the spectral method which use the spectral profile of state space to derive both upper and lower bounds for mixing time, and use canonical method for combinatorial characterizing spectral profile.  Hopefully we can cover how to sample perfect matching uniformly on bipartite graph.
-    </p>
+      <p>
+      Markov chain Monte Carlo (MCMC) methods are a class of algorithms for sampling from a probability distribution based on constructing a Markov chain that has the desired distribution as its stationary distribution.  A main challenge of MCMC is determine the rate of convergence of a Markov chain to the stationary distribution as a function of the size and geometry of the state space.
+      </p><p>
+      In this talk, we are going to introduce the spectral method which use the spectral profile of state space to derive both upper and lower bounds for mixing time, and use canonical method for combinatorial characterizing spectral profile.  Hopefully we can cover how to sample perfect matching uniformly on bipartite graph.
+      </p>
   - topic: "Prediction Market"
     speaker: "Yuqing Kong"
     date: "11am Wednesday, Sep 28, 2016"
